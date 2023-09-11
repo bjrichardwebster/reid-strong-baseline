@@ -1,3 +1,7 @@
+# Fork details
+
+This just wraps the source repo in a poetry package to ease reuse via poetry installation.
+
 # Bag of Tricks and A Strong ReID Baseline
 
 Bag of Tricks and A Strong Baseline for Deep Person Re-identification. CVPRW2019, Oral.

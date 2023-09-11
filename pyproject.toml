@@ -1,0 +1,19 @@
+[build-system]
+requires = ["poetry-core>=1.6.1"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "reid-strong-baseline"
+license = "Proprietary"
+version = "0.1.0"
+description = "ReID Strong Baseline"
+authors = ["Brandon RichardWebster <brandon.richardwebster@kitware.com>"]
+repository = "https://github.com/bjrichardwebster/reid-strong-baseline"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+numpy = "*"
+torch = "*,!=2.0.1"
+torchvision = "*"
+yacs = "*"
